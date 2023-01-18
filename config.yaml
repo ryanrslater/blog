@@ -1,6 +1,6 @@
 baseURL: "http://example.org/"
 languageCode: "en-us"
-title: "Ryan's Blog"
+title: "Ryan's GitHub Blog"
 theme: "hugo-tania"
 socialOptions:
     github: "https://github.com/ryanrslater"
