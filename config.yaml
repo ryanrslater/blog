@@ -1,0 +1,7 @@
+baseURL: "http://example.org/"
+languageCode: "en-us"
+title: "Ryan's Blog"
+theme: "hugo-tania"
+socialOptions:
+    github: "https://github.com/ryanrslater"
+    linkedin: https://www.linkedin.com/in/ryan-slater-ba2304234/
