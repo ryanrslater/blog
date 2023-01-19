@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Ryan&#39;s Cookbook</title>
+    <link>https://ryanrslater.github.io/posts/</link>
+    <description>Recent content in Posts on Ryan&#39;s Cookbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 19 Jan 2023 11:35:45 +0000</lastBuildDate><atom:link href="https://ryanrslater.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spring Boot Rest Api</title>
+      <link>https://ryanrslater.github.io/posts/spring-boot-rest-api/</link>
+      <pubDate>Thu, 19 Jan 2023 11:35:45 +0000</pubDate>
+      
+      <guid>https://ryanrslater.github.io/posts/spring-boot-rest-api/</guid>
+      <description>Setting up the Spring Boot project The goal of this is to build out a rest API using Spring Boot, Postgres and Docker with a CI/CD process. The project I will be building may evolve substantially over time but I will try and keep a GitHub branch live where you can view this code. My project will be site where Hospitality suppliers can upload current deals and offers they have and local venues can buy them directly on the site.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -4,6 +4,62 @@
     <link>https://ryanrslater.github.io/</link>
     <description>Recent content on Ryan&#39;s Cookbook</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://ryanrslater.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Thu, 19 Jan 2023 11:35:45 +0000</lastBuildDate><atom:link href="https://ryanrslater.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+    <title>Spring Boot Rest Api</title>
+    <link>https://ryanrslater.github.io/posts/spring-boot-rest-api/</link>
+    <pubDate>Thu, 19 Jan 2023 11:35:45 +0000</pubDate>
+    
+    <guid>https://ryanrslater.github.io/posts/spring-boot-rest-api/</guid>
+    <description>
+        &lt;h1 id=&#34;setting-up-the-spring-boot-project&#34;&gt;
+    &lt;a href=&#34;#setting-up-the-spring-boot-project&#34; class=&#34;anchor&#34;&gt;
+        &lt;svg class=&#34;icon&#34; aria-hidden=&#34;true&#34; focusable=&#34;false&#34; height=&#34;16&#34; version=&#34;1.1&#34; viewBox=&#34;0 0 16 16&#34; width=&#34;16&#34;&gt;
+            &lt;path fill-rule=&#34;evenodd&#34;
+                d=&#34;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;
+    &lt;/a&gt;
+    Setting up the Spring Boot project
+&lt;/h1&gt;
+&lt;p&gt;The goal of this is to build out a rest API using Spring Boot, Postgres and Docker with a CI/CD process.
+The project I will be building may evolve substantially over time but I will try and keep a GitHub branch live where you can view this code.
+My project will be site where Hospitality suppliers can upload current deals and offers they have and local venues can buy them directly on the site.&lt;/p&gt;
+&lt;h2 id=&#34;spring-dependencies&#34;&gt;
+    &lt;a href=&#34;#spring-dependencies&#34; class=&#34;anchor&#34;&gt;
+        &lt;svg class=&#34;icon&#34; aria-hidden=&#34;true&#34; focusable=&#34;false&#34; height=&#34;16&#34; version=&#34;1.1&#34; viewBox=&#34;0 0 16 16&#34; width=&#34;16&#34;&gt;
+            &lt;path fill-rule=&#34;evenodd&#34;
+                d=&#34;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;
+    &lt;/a&gt;
+    Spring dependencies
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;JPA&lt;/li&gt;
+&lt;li&gt;Postgres Driver&lt;/li&gt;
+&lt;li&gt;Spring Security&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;vscode-extensions&#34;&gt;
+    &lt;a href=&#34;#vscode-extensions&#34; class=&#34;anchor&#34;&gt;
+        &lt;svg class=&#34;icon&#34; aria-hidden=&#34;true&#34; focusable=&#34;false&#34; height=&#34;16&#34; version=&#34;1.1&#34; viewBox=&#34;0 0 16 16&#34; width=&#34;16&#34;&gt;
+            &lt;path fill-rule=&#34;evenodd&#34;
+                d=&#34;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;
+    &lt;/a&gt;
+    VSCode extensions
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Extension pack for Java&lt;/li&gt;
+&lt;li&gt;Spring Boot Extension Pack&lt;/li&gt;
+&lt;li&gt;GitHub Copilot&lt;/li&gt;
+&lt;li&gt;Docker&lt;/li&gt;
+&lt;/ul&gt;
+
+    </description>
+    </item>
+    
   </channel>
 </rss>
