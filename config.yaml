@@ -1,7 +1,0 @@
-baseURL: "https://ryanrslater.github.io/"
-languageCode: "en-us"
-title: "Ryan's GitHub Blog"
-theme: "hugo-tania"
-socialOptions:
-    github: "https://github.com/ryanrslater"
-    linkedin: https://www.linkedin.com/in/ryan-slater-ba2304234/
