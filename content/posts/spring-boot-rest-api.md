@@ -1,7 +1,7 @@
 ---
 title: "Spring Boot Rest Api"
 date: 2023-01-19T11:35:45Z
-draft: false
+draft: true
 ---
 
 # Setting up the Spring Boot project
