@@ -59,7 +59,6 @@ class Address {
         @OneToOne(mappedBy = "address")
         private Account account;
         private String addressLine1;
-        private Account account;
         private String addressLine2;
         private String city;
         private String state;
