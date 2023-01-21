@@ -8,7 +8,7 @@ draft: false
 
 ## TLDR
 
-- Create two Entities you wish to join (Them must have the @Entity annotation)
+- Create two Entities you wish to join (they must have the @Entity annotation)
 - On your main Entity create a reference to the other Entity you wish to connect with the @OneToOne and @JoinColumn annotations
 - Within the @JoinColumn annotaions add the name and reference column to the other Entity
 ```

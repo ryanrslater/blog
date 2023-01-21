@@ -34,7 +34,7 @@
     TLDR
 &lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Create two Entities you wish to join (Them must have the @Entity annotation)&lt;/li&gt;
+&lt;li&gt;Create two Entities you wish to join (they must have the @Entity annotation)&lt;/li&gt;
 &lt;li&gt;On your main Entity create a reference to the other Entity you wish to connect with the @OneToOne and @JoinColumn annotations&lt;/li&gt;
 &lt;li&gt;Within the @JoinColumn annotaions add the name and reference column to the other Entity&lt;/li&gt;
 &lt;/ul&gt;
