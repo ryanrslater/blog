@@ -1,7 +1,7 @@
 ---
 title: "Spring Boot JPA One to One relationships"
 date: 2023-01-20T23:33:39Z
-draft: true
+draft: false
 ---
 
 # One to One relationships with Spring boot JPA

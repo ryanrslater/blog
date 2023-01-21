@@ -6,14 +6,14 @@
     <description>Recent content in Posts on Ryan&#39;s Cookbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Jan 2023 11:35:45 +0000</lastBuildDate><atom:link href="https://ryanrslater.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Jan 2023 23:33:39 +0000</lastBuildDate><atom:link href="https://ryanrslater.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Spring Boot Rest Api</title>
-      <link>https://ryanrslater.github.io/posts/spring-boot-rest-api/</link>
-      <pubDate>Thu, 19 Jan 2023 11:35:45 +0000</pubDate>
+      <title>Spring Boot JPA One to One relationships</title>
+      <link>https://ryanrslater.github.io/posts/spring-boot-jpa-one-to-one/</link>
+      <pubDate>Fri, 20 Jan 2023 23:33:39 +0000</pubDate>
       
-      <guid>https://ryanrslater.github.io/posts/spring-boot-rest-api/</guid>
-      <description>Setting up the Spring Boot project The goal of this is to build out a rest API using Spring Boot, Postgres and Docker with a CI/CD process. The project I will be building may evolve substantially over time but I will try and keep a GitHub branch live where you can view this code. My project will be site where Hospitality suppliers can upload current deals and offers they have and local venues can buy them directly on the site.</description>
+      <guid>https://ryanrslater.github.io/posts/spring-boot-jpa-one-to-one/</guid>
+      <description>One to One relationships with Spring boot JPA TLDR Create two Entities you wish to join (Them must have the @Entity annotation) On your main Entity create a reference to the other Entity you wish to connect with the @OneToOne and @JoinColumn annotations Within the @JoinColumn annotaions add the name and reference column to the other Entity @OneToOne @JoinColumn(name = &amp;#34;address_id&amp;#34;, referencedColumnName = &amp;#34;id&amp;#34;) private Address address; Now head over to your second Entity and add the reference to the first Entity with the annotation @OneToOne Within the @OneToOne Entity add the mappedBy to the first Entity @OneToOne(mappedBy = &amp;#34;address&amp;#34;) private Account account; Introduction: In this post, we will discuss how to manage one-to-one relationships using Spring Boot and JPA.</description>
     </item>
     
   </channel>
