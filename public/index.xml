@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ryan&#39;s Cookbook</title>
+    <title>Ryan codes</title>
     <link>https://ryanrslater.github.io/</link>
-    <description>Recent content on Ryan&#39;s Cookbook</description>
+    <description>Recent content on Ryan codes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 20 Jan 2023 23:33:39 +0000</lastBuildDate><atom:link href="https://ryanrslater.github.io/index.xml" rel="self" type="application/rss+xml" />

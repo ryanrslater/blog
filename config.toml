@@ -1,13 +1,13 @@
 baseurl = "https://ryanrslater.github.io/"
 languageCode = "en-us"
-title = "Ryan's Cookbook"
+title = "Ryan codes"
 theme = "hugo-tania"
 paginate = 6
 
 
 [params]
   # Emoji will show before the blog title on site navbar.
-  titleEmoji  = "👨‍🍳"
+  titleEmoji  = "👨‍💻"
 
   # Logo will show before the blog title on site navbar.
   titleLogo = ""
@@ -16,7 +16,7 @@ paginate = 6
   # Default to true
   enableFootnotes = true
 
-  siteName = "Ryan's Coding Cookbook"
+  siteName = "Ryan's Codes"
   siteDesc = "My snippets and finding!"
   author = "Ryan Slater"
 
