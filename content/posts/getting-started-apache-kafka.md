@@ -39,3 +39,22 @@ Once the Zookeeper service is up and running, you can start the Kafka service by
 
 Create a Topic
 A topic is a category or feed name to which records are published. Topics are used to categorize records in Apache Kafka. You can create a topic by executing the following command:
+
+```
+./bin/kafka-topics.sh --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic test-topic
+```
+Produce and Consume Messages
+Now that you have started the Kafka service and created a topic, you can start producing and consuming messages. To produce messages, you can execute the following command:
+```
+./bin/kafka-console-producer.sh --bootstrap-server localhost:9092 --topic test-topic
+```
+To consume messages, you can execute the following command:
+```
+./bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic test-topic --from-beginning
+```
+Conclusion
+In this article, we have discussed how to get started with Apache Kafka. We have covered the prerequisites, downloading and installing Apache Kafka, starting the Zookeeper and Kafka services, creating a topic, and producing and consuming messages. This should give you a good starting point to explore the many features of Apache Kafka.
+
+
+
+
